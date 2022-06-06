@@ -1,0 +1,244 @@
+@media screen and (max-width: 1440px) {
+    .inicio,
+    .fullscreen-video-wrap,
+    .header-overlay
+    {
+        height: 100vh;
+        width: 100%;
+    }
+    .fullscreen-video-wrap video {
+        min-height: 100vh;
+    }
+    .header-content {
+        top: 37%;
+    }
+    .quienes, 
+    .eventos, 
+    .secciones,
+    .areas,
+    .pasoFe, 
+    .agradecimientos, 
+    .orarPorVos {
+        padding: 2rem 5rem;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .header-content {
+        top: 15%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 1.1em;
+    }
+    .header-content {
+        max-width: 80vw;
+    }
+
+    .header-content > h1 {
+        font-size: 80px;
+    }
+
+    .header-content > p {
+        font-size: 1.3rem;
+    }
+    .quienes, 
+    .eventos, 
+    .secciones,
+    .areas {
+        padding: 2rem 3rem;
+    }
+    .secciones > div {
+        flex-wrap: wrap;
+        
+    }
+    .secciones article,
+    .eventos article {
+        width: 80%;
+        border: none;
+        padding: 6%;
+    }
+    .secciones .seccionesVideo iframe {
+        height: 330px;
+    }
+    .eventos div {
+        padding: 2%;
+    }
+    .eventos article {
+        flex-wrap: wrap;
+    }
+    .eventos article figure,
+    .eventos article img {
+        width: 100%;
+    }
+    .eventos article .eventosTxt {
+        padding: 2% 0;
+        width: 100%;
+    }
+    .areas div {
+        justify-content: flex-start;
+    }
+    .areas article {
+        width: 45%;
+    }
+    .areas .donaciones {
+        padding: 5% 2%;
+    }
+    .areas .donacionesBtn {
+        width: 27%;
+    }
+    .areas .donaciones > div a{
+        margin: 0 auto;
+    }
+    .pasoFe, 
+    .agradecimientos, 
+    .orarPorVos, 
+    .pasoFe div, 
+    .agradecimientos div, 
+    .orarPorVos div {
+        flex-wrap: wrap;
+        /* padding: 3rem; */
+    }
+    .pasoFe .pasoFeTxt, 
+    .agradecimientos .agradecimientosTxt, 
+    .orarPorVos .orarPorVosTxt {
+        width: 100%;
+    }
+    .pasoFe form, 
+    .agradecimientos form, 
+    .orarPorVos form {
+        width: 100%;
+    }
+    .pasoFe form input, 
+    .agradecimientos form input, 
+    .orarPorVos form input {
+        height: 60px;
+        font-size: 1em;
+    }
+    .pasoFe input.btnEnviar, 
+    .orarPorVos input.btnEnviar, 
+    .agradecimientos input.btnEnviar {
+        padding: 0;
+    }
+    footer {
+        padding: 2% 7%;
+        font-size: 0.9em;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .header-content {
+        top: 24%;
+    }
+    .secciones article, .eventos article {
+        width: 100%;
+    }
+    .areas .donacionesBtn {
+        width: 41%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        padding: 2%;    
+    }
+    .areas .donacionesBtn:nth-child(3) {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .eventos article {
+        flex-wrap: wrap;
+    }
+    .eventos article figure {
+        width: 100%;
+    }
+    .eventos article img {
+        width: 100%;
+    }
+    .eventos article .eventosTxt {
+        padding-left: 4%;
+        padding-right: 4%;
+        width: 100%;
+    }
+    .areas article {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .header-content {
+        top: 12%;
+    }
+    .header-content > h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .header-content > p {
+        margin-top: 5%;
+        font-size: 1em;
+    }
+    .redes {
+        font-size: 2em;
+    }
+    .areas .donaciones {
+        margin-top: 10%;
+    }
+    .areas .donacionesBtn {
+        width: 75%;
+    }
+    .areas .donacionesBtn:nth-child(3) {
+        margin-top: 3%;
+    }
+    .secciones .seccionesVideo iframe {
+        height: auto;
+    }
+    .quienes, .eventos, .secciones, .areas, .pasoFe, .agradecimientos, .orarPorVos {
+        padding: 2rem;
+    }
+    .pasoFe form, .agradecimientos form, .orarPorVos form {
+        padding: 7% 0;
+    }
+    .pasoFe .pasoFeTxt, .agradecimientos .agradecimientosTxt, .orarPorVos .orarPorVosTxt {
+        text-align: left;
+        margin-bottom: 8%;
+    }
+    .pasoFe form input, .agradecimientos form input, .orarPorVos form input {
+        height: 45px;
+        font-size: .9em;
+        margin-bottom: 6%;
+    }
+    footer {
+        padding: 7%
+        ;
+    }
+}
+@media screen and (max-width: 352px) {
+    .quienes, .eventos, .secciones, .areas, .pasoFe, .agradecimientos, .orarPorVos {
+        padding: 1rem;
+    }
+    .pasoFe form, .agradecimientos form, .orarPorVos form {
+        background: transparent;
+    }
+    .pasoFe form h3 {
+        color: #D8B10A;
+    }
+    .pasoFe form input {
+        background: #D8B10A;
+        width: 94%;
+        color: white;
+    }
+    .orarPorVos form h3 {
+        color: #484E4A;
+    } 
+    .orarPorVos form input {
+        width: 94%;
+    }
+    .orarPorVos input.btnEnviar {
+        background: #484E4A;
+        color: white;
+    }
+    .agradecimientos form {
+        border: none;
+    } 
+    .agradecimientos form input {
+        width: 94%;
+    }  
+}

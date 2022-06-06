@@ -1,0 +1,12 @@
+1. Menu desplegable lado izquierdo
+2. Escudo + bienvenida arriba izquierda
+3. Fondo:
+		Heraldo de Fe => color #b98e1f, fuente 'Lobster' cursive, shadow 2px 2px black
+		Seguinos en nuestras redes => fuente Sans Serif, color negro
+		[whatsapp,facebook,instagram,youtube]
+
+		fondo loop video cielo (recortado) => height 100vh, weight 100%
+		lado derecho insertar versiculo diario flotante
+
+4. Menu
+
