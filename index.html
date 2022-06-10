@@ -6,19 +6,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/new_styles.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lobster&display=swap" rel="stylesheet">
     <title>Heraldo de Fe</title>
 </head>
 
 <body>
-    <header>
-        <div class="background">
-            <video autoplay="" loop="" poster="">
-                <source src="screen/logo_full.mp4">
-            </video>
-            <div class="override_video"></div>
-
-        </div>
-    </header>
+    <div class="grid-container">
+        <header class="grid-child background">
+            <div class="bg-filter">
+                    <video autoplay="" loop="" poster="" muted="" class="bg-video">
+                        <source src="screen/logo_full.mp4" type="video/mp4">
+                    </video>
+            </div>
+            <div class="bg-flex-container">
+                <h1 class="bg-title">Heraldo de Fe</h1>
+                <h2 class="bg-subtitle">Todo lo puedo en Cristo que me fortalece</h2>
+            </div>
+        </header>
+        <nav class="grid-child menu">MENU</nav>
+        <footer class="grid-child footer">FOOTER</footer>
+    </div>
 </body>
 </html>
