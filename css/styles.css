@@ -8,6 +8,10 @@ body {
 li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+  color: var(--fcolor);
+}
 :root {
   --fcolor: #b98e1f;
   --bgmenu: #444;
@@ -30,9 +34,13 @@ li {
   grid-area: bg;
   position: relative;
 }
+.we-container{
+  grid-area: bg;
+  position: relative;
+}
 .menu {
   grid-area: menu;
-  background: linear-gradient(to top, #000,var(--bgmenu));
+  background: linear-gradient(to top, #000, var(--bgmenu));
 }
 .footer {
   grid-area: fo;
@@ -88,12 +96,12 @@ li {
   display: flex;
   align-items: center;
 }
-.ilogo{
+.ilogo {
   max-width: 25%;
 }
-.iname{
+.iname {
   max-width: 70%;
-  flex-grow:1;
+  flex-grow: 1;
 }
 .ilogo > img {
   width: 100%;
@@ -103,7 +111,7 @@ li {
   text-align: center;
 
   color: var(--fcolor);
-  text-shadow:-0.5px -0.5px 0.5px #fff;
+  text-shadow: -0.5px -0.5px 0.5px #fff;
 }
 .menu-container {
   width: 100%;
@@ -123,4 +131,11 @@ li {
   text-shadow: 0.5px 0.5px 0.3px #fff, -0.5px -0.5px 3px #fff;
   text-decoration: underline;
   font-size: 200%;
+}
+
+/* We Container  */
+.we-container{
+  width: 100%;
+  height: 100%;
+  background-color: #0f9;
 }

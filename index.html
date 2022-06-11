@@ -16,7 +16,7 @@
 
 <body>
     <div class="grid-container">
-        <header class="grid-child background">
+        <header class="grid-child background" id="home">
             <div class="bg-filter">
                 <video autoplay="" loop="" poster="" muted="" class="bg-video">
                     <source src="screen/logo_full.mp4" type="video/mp4">
@@ -38,9 +38,9 @@
                     </div>
                 </div>
                 <div class="menu-container">
-                    <ul class="menu-items" list-style:none>
-                        <li class="menu-item m1">Inicio</li>
-                        <li class="menu-item m2">Nosotros</li>
+                    <ul class="menu-items">
+                        <li class="menu-item m1"><a href="#home">Inicio</a></li>
+                        <li class="menu-item m2"><a href="#we"></a>Nosotros</li>
                         <li class="menu-item m3">Reuniones</li>
                         <li class="menu-item m4">Oraciones</li>
                         <li class="menu-item m5">Donaciones</li>
@@ -49,6 +49,9 @@
                     </ul>
                 </div>
             </div>
+        </div>
+        <div class="grid-child we-container" id="we">
+            <div class="noname">Nosotros</div>
         </div>
         <footer class="grid-child footer">FOOTER</footer>
     </div>
