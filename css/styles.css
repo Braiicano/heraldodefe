@@ -32,11 +32,11 @@ li {
 }
 .menu {
   grid-area: menu;
-  background-color: var(--bgmenu);
+  background: linear-gradient(to top, #000,var(--bgmenu));
 }
 .footer {
   grid-area: fo;
-  background-color: #0f0;
+  background-color: #000;
 }
 .flex-container {
   display: flex;
@@ -88,14 +88,22 @@ li {
   display: flex;
   align-items: center;
 }
+.ilogo{
+  max-width: 25%;
+}
+.iname{
+  max-width: 70%;
+  flex-grow:1;
+}
 .ilogo > img {
   width: 100%;
   object-fit: fill;
 }
-.iname > h3 {
+.iname > h2 {
   text-align: center;
+
   color: var(--fcolor);
-  text-shadow: 0.5px 0.5px 0.5px #fff, -0.5px -0.5px 0.5px #fff;
+  text-shadow:-0.5px -0.5px 0.5px #fff;
 }
 .menu-container {
   width: 100%;
