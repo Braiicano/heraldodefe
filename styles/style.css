@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
+/*general*/
+*{
+  font: 100% sans-serif;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'The Nautigal', cursive;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:var(--fcolor);
+}
+:root{
+  --fcolor:#b98e1f;
+  --bgmenu:#777;
+}
+
+
+/*main config*/
+.container{
+  display:flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+/*menu bar*/
+.navbar{
+  width:100vw;
+  height: 60px;
+  position:fixed;
+  background-color: var(--bgmenu);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  padding: 5px 20px;
+}
+.navlogo img{
+  max-width: 100vw;
+  height:35px;
+  object-fit: fill;
+}
+.navcontain{
+  display:none;
+}
+
+
+
+/*background*/
+.main{
+  max-width: 100vw;
+  height:100%;
+  display:block;
+  /*position: relative;*/
+}
+video{
+  width: 100%;
+  height: 100%;
+  /*position:absolute;*/
+  position:relative;
+  object-fit: cover;
+}
+.override{
+  width:100%;
+  height:100%;
+  background-color: #fff;
+  opacity: .65;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.title{
+  position:absolute;
+  z-index:10;
+  font-size: 2.3rem;
+  text-align: center;
+  color:var(--fcolor);
+  text-shadow: 1px 1px 1px #000;
+  text-shadow: 2px 2px 5px #fff;
+}
